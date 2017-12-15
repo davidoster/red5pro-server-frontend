@@ -194,6 +194,11 @@
                 publisher = publisherImpl;
                 publisher.on('*', onPublisherEvent);
                 publisher.publish();
+                if (publisherImpl.getType().toUpperCase() === 'RTC') {
+                  setInterval(function () {
+                    publisherImpl.getConnection().post({ping: 1});
+                  }, 5000)
+                }
               })
               .catch(function (error) {
                 console.error(error);
