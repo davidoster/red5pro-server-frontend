@@ -13,6 +13,6 @@
   },
   "r5pro-testbed": {
     "repositoryUrl": "git@github.com:red5pro/streaming-html5.git",
-    "branch": "confrence-take-two_RPRO-4946"
+    "branch": "feature/confrence-take-two_RPRO-4946"
   }
 }
