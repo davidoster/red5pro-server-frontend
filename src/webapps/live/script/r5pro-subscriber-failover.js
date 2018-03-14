@@ -49,7 +49,7 @@
     host: host,
     app: 'live',
     buffer: isNaN(buffer) ? 2 : buffer,
-    iceServers: iceServers
+    iceServers: [{urls:red5west2turn.red5.org:3478}]
   };
   var rtcConfig = {
     protocol: getSocketLocationFromProtocol(protocol).protocol,

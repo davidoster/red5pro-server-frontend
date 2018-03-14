@@ -70,7 +70,7 @@
   var baseConfiguration = {
     host: window.targetHost,
     app: 'live',
-    iceServers: iceServers,
+    iceServers: [{urls:red5west2turn.red5.org:3478}],
     bandwidth: desiredBandwidth,
     mediaConstraints: forceQuality
   };
