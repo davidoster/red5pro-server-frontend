@@ -13,6 +13,6 @@
   },
   "r5pro-testbed": {
     "repositoryUrl": "git@github.com:red5pro/streaming-html5.git",
-    "branch": "feature/webhooks_sm_integration_AF-12"
+    "branch": "feature/hostname-pubsub"
   }
 }
